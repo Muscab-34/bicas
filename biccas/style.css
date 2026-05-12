@@ -1,0 +1,264 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: inter;
+}
+.header{
+
+    font-family: inter;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: #A6A6A6;
+    align-items: center;
+   margin-left:90px;
+
+
+}
+.header h1{
+color: #54BD95;
+font-size: 50px;
+}
+.header ul{
+display: flex;
+gap: 30px;
+font-size: 20px;
+list-style: none;
+}
+.text1 h1 span:hover{
+    color: #54BD95;
+    font-size: 90px;
+    font-family:Architects Daughter ;
+}
+.sing{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.sing h1{
+    font-size: 30px;
+    color: #A6A6A6;
+    
+}
+.sing button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: #54BD95;
+    border: none;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    
+}
+.text1 h1 {
+
+    font-size: 70px;
+    font-family: inter;
+}
+.text1 p{
+    padding-top: 70px;
+    font-size: 18px;
+}
+
+
+.text1 button{
+    width: 165px;
+    height: 62px;
+    border-radius: 40px;
+    background-color: #54BD95;
+    color: white;
+    margin-top: 40px;
+    border: none;
+}
+.right img{
+    width: 455px;
+    height: 526px;
+}
+.right img:hover{
+    rotate: 7deg;
+    scale: 1.2;
+}
+.more{
+    margin-left: 30px;
+    margin-top: 150px;
+
+}
+.more h1{
+    /* margin-top: 10px; */
+    text-align: center;
+}
+.icons i{
+    font-size: 30px;
+
+}
+
+.icons{
+        display: flex; 
+gap: 70px;
+    color: rgb(166, 166, 166);
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+
+}
+.icon2{
+    display: flex;
+    gap: 10px;
+}
+.features{
+    display: flex;
+    gap: 90px;
+    margin-left: 70px;
+    margin-top: 230px;
+    margin-bottom: 40px;
+
+    
+}
+.features h1{
+    font-size: 50px;
+}
+.features p{
+    margin-left: 30px;
+    color: #A6A6A6;
+    margin-top: 30px;
+    line-height: 20px;
+}
+.features button{
+    width: 162px;
+    height: 66px;
+    background-color: #54BD95;
+    border-radius: 70px;
+    border: none;
+    margin-top: 40px;
+    color: white;
+}
+.vector{
+    display: flex;
+    gap: 50px;
+        margin-left: 70px;
+        margin-top: 90px;
+        margin-bottom: 100px;
+
+}
+.vetor1 img{
+    width: 340px;
+    height: 460px;
+    border: 0.5px solid gainsboro;
+    border-radius: 15px;
+
+}
+.vetor1 h2{
+    font-size:25px ;
+    font-weight: normal;
+    padding-top: 20px;
+}
+.vetor1 p{
+    padding-top: 25px;
+    color: rgb(187, 186, 186);
+}
+.correct{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+    font-size:20px ;
+
+
+}
+.benifit{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.text-letf h1{
+    font-size:60px ;
+    margin-bottom: 20px;
+}
+
+.image-lap{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+footer{
+        width: 100%;
+    height: 460px;
+    background-color: #161C28;
+
+}
+.footer{
+    display: flex;
+    gap: 160px;
+    color: #A6A6A6;
+
+}
+.Muscab{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.Muscab h1{
+    color: #54BD95;
+    margin-bottom: 10px;
+}
+.Muscab p{
+
+    margin-bottom: 20px;
+}
+#footer-btn {
+    width: 410px;
+    height: 60px;
+    border-radius: 70px;
+    border: 2px solid #A6A6A6;
+    background-color: #161C28;
+    padding-left: 20px;
+    margin-top: 30px;
+    color: white;
+    /* margin-left: -50px; */
+
+    
+}
+.email-btn {
+    display: flex;
+}
+.email-btn i{
+    font-size: 50px;
+    margin-top: 38px;
+    margin-left: -70px;
+}
+.suppot{
+    display: flex;
+    gap: 70px;
+    margin-top: 100px;
+    /* margin-left: 100px; */
+
+}
+.suppot h1{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.ul-one ul {
+    list-style: none;
+}
+.ul-one ul li{
+    margin-bottom: 10px;
+}
+.copyright{
+    margin-top: 90px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
